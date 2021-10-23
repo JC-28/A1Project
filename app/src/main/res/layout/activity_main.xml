@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pizza1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="@string/ChPizza"
+                android:src="@drawable/cheese_pizza"/>
+            <CheckBox
+                android:id="@+id/CH_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/ChPizza"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="@string/VPizza"
+                android:src="@drawable/veggie_pizza"/>
+
+            <CheckBox
+                android:id="@+id/V_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/VPizza"/>
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="@string/PPizza"
+                android:src="@drawable/pepperoni_pizza"/>
+
+            <CheckBox
+                android:id="@+id/P_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/PPizza"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="@string/HPizza"
+                android:src="@drawable/hawaiian_pizza"/>
+
+            <CheckBox
+                android:id="@+id/H_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/HPizza"/>
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:contentDescription="@string/CPizza"
+                android:src="@drawable/meat_chicken_pizza"/>
+
+            <CheckBox
+                android:id="@+id/C_checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:text="@string/CPizza"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/choice"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SSlice"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SSmall"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SMed"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/SLag"/>
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/add_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add"
+                />
+            <Button
+                android:id="@+id/confirm_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm"
+                />
+            <Button
+                android:id="@+id/display_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/display"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

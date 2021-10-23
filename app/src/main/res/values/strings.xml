@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Assignment1 2.0</string>
+    <string name="HPizza">Hawaiian Pizza</string>
+    <string name="PPizza">Pepperoni Pizza</string>
+    <string name="CPizza">Chicken Pizza</string>
+    <string name="ChPizza">Cheese Pizza</string>
+    <string name="VPizza">Veggie Pizza</string>
+    <string name="icon">Pizza Icon</string>
+
+    <string name="choice">Choose a Size:</string>
+
+    <string name="SSlice">Slice</string>
+    <string name="SSmall">Small</string>
+    <string name="SMed">Medium</string>
+    <string name="SLag">Large</string>
+
+    <string name="add">Add to Cart</string>
+    <string name="confirm">Confirm Order</string>
+    <string name="send">Send Order</string>
+    <string name="display">Display Order</string>
+</resources>
