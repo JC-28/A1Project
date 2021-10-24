@@ -43,9 +43,10 @@ public class MainActivity extends AppCompatActivity {
         cb3 = findViewById(R.id.C_checkBox);
         cb4 = findViewById(R.id.CH_checkBox);
         cb5 = findViewById(R.id.V_checkBox);
-/*
+        radiogroup = findViewById(R.id.radioGroup);
+
         int radioId = radiogroup.getCheckedRadioButtonId();
-        radioBtn = findViewById(radioId);*/
+        radioBtn = findViewById(radioId);
 
         order.append("Your Order");
         if(cb1.isChecked()) {
@@ -63,10 +64,10 @@ public class MainActivity extends AppCompatActivity {
         if(cb5.isChecked()) {
             order.append("\n").append(cb5.getText().toString());
         }
-        /*
+
         if(radioBtn != null){
-         order.append("\nChosen size:").append(radioBtn.getText());
-        }*/
+         order.append("\nChosen size: ").append(radioBtn.getText());
+        }
 
     }
     public void onConfirm(){
