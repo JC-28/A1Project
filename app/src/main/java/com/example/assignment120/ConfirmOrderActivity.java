@@ -16,9 +16,16 @@ public class ConfirmOrderActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String text = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
 
-        TextView TextView1 = findViewById(R.id.TextView1);
-
-        TextView1.setText(text);
-
+        TextView textview = findViewById(R.id.TextView1);
+        textview.setText(text);
     }
+/*
+    public void onSendMessage(){
+        Intent sendIntent = new Intent();
+        sendIntent.setAction(Intent.ACTION_SEND);
+        sendIntent.putExtra(Intent.EXTRA_TEXT, "TEST");
+        sendIntent.setType("text/plain");
+        startActivity(sendIntent);
+
+    }*/
 }
